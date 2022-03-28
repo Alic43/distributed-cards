@@ -8,3 +8,26 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1 {
+  font-family: 'Denk One', sans-serif;
+  color: #623b0c;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 0;
+  padding: .5em .75em .6em;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ede3db;
+  padding: 1rem;
+  border: 2px solid #623b0c;
+  border-radius: 10px;
+}
