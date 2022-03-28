@@ -20,7 +20,8 @@ img {
 h1, h2 {
   font-family: "Denk One";
   color: #623b0c;
-  margin: 0;
+  margin: 0 0 1.5rem;
+  padding: 0 .5em;
 }
 
 ol {
@@ -42,7 +43,7 @@ li {
 }
 
 p {
-  margin: 1.5rem 0;
+  margin: 0 0 auto;
 }
 
 ol a {
@@ -52,4 +53,5 @@ ol a {
   text-decoration: none;
   text-align: left;
   color: #fff;
+  margin-top: 1.5rem;
 }
